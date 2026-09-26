@@ -13,7 +13,7 @@
   <a href="https://glassbox.how/e/cameraclear/"><img alt="Light & Optics" src="https://img.shields.io/badge/field-Light%20%26%20Optics-ffb547"></a>
   <a href="LICENSE"><img alt="Code: MIT" src="https://img.shields.io/badge/code-MIT-3fb950"></a>
   <a href="LICENSE-CONTENT.md"><img alt="Content: CC BY 4.0" src="https://img.shields.io/badge/content-CC%20BY%204.0-ef9421"></a>
-  <a href="#privacy"><img alt="No tracking" src="https://img.shields.io/badge/tracking-none-555"></a>
+  <a href="#privacy"><img alt="Privacy: explained" src="https://img.shields.io/badge/privacy-explained-555"></a>
 </p>
 
 ## In 60 seconds
@@ -55,7 +55,7 @@ Made with the Glassbox studio from this box's storyboard (`window.glassbox.direc
 
 ## Privacy
 
-This box collects **nothing**: no accounts, no cookies, no analytics, no tracking, and no requests to other websites. Every file, including fonts and libraries, is served from glassbox.how.
+This box has no accounts and no ads, and it ships its own fonts and libraries. When you run it yourself it sends nothing anywhere. On glassbox.how, the site's `/bar.js` also loads Glassbox's analytics: **Google Analytics** to count visits (skipped when your browser sends Global Privacy Control or Do Not Track) and **ClickTrust** to detect bots.
 
 It remembers a few things **in your own browser only**, and never sends them anywhere:
 
@@ -63,7 +63,7 @@ It remembers a few things **in your own browser only**, and never sends them any
 |---|---|
 | `cameraclear.v1` | Your XP, finished missions, best quiz scores, whether you have seen the welcome screen, and sound on or off. |
 
-The full policy is at [glassbox.how/privacy](https://glassbox.how/privacy/).
+Exactly what each one sees is at [glassbox.how/privacy](https://glassbox.how/privacy/).
 
 ## Licences
 
@@ -97,7 +97,7 @@ npm start
 Then open http://localhost:5173. (`npm start` runs `python3 serve.py`, a static server with caching turned off.
 Any static server works; ES modules just need to be served over http, not opened as `file://`.)
 
-Everything is self-contained: three.js (`vendor/three/`) and the fonts (`fonts/`) ship in the repo, so it works offline and never contacts another site.
+Everything is self-contained: three.js (`vendor/three/`) and the fonts (`fonts/`) ship in the repo, so it works offline and, run locally, never contacts another site.
 
 ## Chapters
 
