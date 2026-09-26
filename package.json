@@ -9,10 +9,10 @@
   "homepage": "https://glassbox.how/cameraclear/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/glassboxhow/cameraclear.git"
+    "url": "git+https://github.com/bdeeps/cameraclear.git"
   },
   "bugs": {
-    "url": "https://github.com/glassboxhow/cameraclear/issues"
+    "url": "https://github.com/bdeeps/cameraclear/issues"
   },
   "license": "MIT",
   "author": "Deepankar Biswas",

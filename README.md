@@ -72,7 +72,7 @@ Made with the Glassbox studio from this box's storyboard (`window.glassbox.direc
 
 ## Privacy
 
-This box has no accounts and no ads, and it ships its own fonts and libraries. When you run it yourself it sends nothing anywhere. On glassbox.how, the site's `/bar.js` also loads Glassbox's analytics: **Google Analytics** to count visits (skipped when your browser sends Global Privacy Control or Do Not Track) and **ClickTrust** to detect bots.
+This box has no accounts and no ads, and it ships its own fonts and libraries. When you run it yourself it sends nothing anywhere. On glassbox.how, the site's `/bar.js` also loads Glassbox's analytics: **Google Analytics** to count visits (it asks first in the EU, UK and Switzerland, and stays off when your browser sends Global Privacy Control or Do Not Track) and **ClickTrust** to detect bots.
 
 It remembers a few things **in your own browser only**, and never sends them anywhere:
 
@@ -89,7 +89,7 @@ Exactly what each one sees is at [glassbox.how/privacy](https://glassbox.how/pri
 - **Third-party parts** keep their own licences: [three.js](https://threejs.org) (MIT), [Inter, JetBrains Mono, Space Grotesk](https://openfontlicense.org) (SIL OFL 1.1).
 - The Glassbox name and logo aren't covered by either licence. See the [terms](https://glassbox.how/terms/).
 
-Found a mistake? [Open an issue](https://github.com/glassboxhow/cameraclear/issues). Corrections happen in public.
+Found a mistake? [Open an issue](https://github.com/bdeeps/cameraclear/issues). Corrections happen in public.
 <!-- glassbox:end -->
 
 ## About the app
