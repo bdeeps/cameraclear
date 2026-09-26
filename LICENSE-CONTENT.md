@@ -1,7 +1,7 @@
 # Content licence
 
 The explanations, text, diagrams, images and videos in this repository, meaning
-`glassbox.json` and everything in `glassbox/`, are © 2026 Deepankar Biswas and
+`glassbox.json`, `history.json` and everything in `glassbox/`, are © 2026 Deepankar Biswas and
 licensed under the **Creative Commons Attribution 4.0 International licence
 (CC BY 4.0)**: https://creativecommons.org/licenses/by/4.0/
 

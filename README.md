@@ -36,6 +36,21 @@
 | **Focal length** | How strongly a lens bends light, in millimetres. Short = wide view, long = narrow, magnified view. |
 | **Sensor noise** | Random speckle from the physics of counting light. ISO amplification makes it more visible. |
 
+## A short history
+
+**2,400 years from a hole in the wall to the camera in your pocket.**
+
+- **400 BCE** · The first written description of a pinhole image (Mozi and the Mohists, China)
+- **1021** · Experiments with a dark room and candles (Ibn al-Haytham (Alhazen), Cairo, Egypt)
+- **1568** · The first aperture (Daniele Barbaro, Venice, Italy)
+- **1827** · The oldest surviving photograph (Nicéphore Niépce, Saint-Loup-de-Varennes, France)
+- **1839** · Photography is given to the world (Louis Daguerre, Paris, France)
+- **1840** · A lens fast enough for portraits (Joseph Petzval, Vienna, Austria)
+- **1861** · The first colour photograph (James Clerk Maxwell and Thomas Sutton, London, England)
+- **1878** · The horse in motion (Eadweard Muybridge, Palo Alto, California, USA)
+
+The full story, with 50 moments, charts, people and 21 sources: [glassbox.how/e/cameraclear/history](https://glassbox.how/e/cameraclear/history/). The data lives in [`history.json`](history.json).
+
 ## Video and slides
 
 Made with the Glassbox studio from this box's storyboard (`window.glassbox.director`). Free to reuse under CC BY 4.0.
@@ -51,6 +66,8 @@ Made with the Glassbox studio from this box's storyboard (`window.glassbox.direc
 | `glassbox/slide-1…10.jpg` | Instagram carousel | 1080×1350 |
 | `glassbox/thumb.jpg` | YouTube thumbnail | 1280×720 |
 | `glassbox/cover.jpg` | Share card and repo social preview | 1200×630 |
+| [`glassbox/history-reel.mp4`](https://glassbox.how/cameraclear/glassbox/history-reel.mp4) | “History in 10 moments” Reel / Short | 1080×1920 |
+| `glassbox/history-slide-*.jpg` | History carousel | 1080×1350 |
 | `glassbox/post.json` | Post copy and schedule used by the publish kit | |
 
 ## Privacy

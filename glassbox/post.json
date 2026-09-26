@@ -10,6 +10,19 @@
     "cover": "cover.jpg",
     "thumb": "thumb.jpg",
     "still": "still.jpg",
+    "historyReel": "history-reel.mp4",
+    "historySlides": [
+      "history-slide-1.jpg",
+      "history-slide-2.jpg",
+      "history-slide-3.jpg",
+      "history-slide-4.jpg",
+      "history-slide-5.jpg",
+      "history-slide-6.jpg",
+      "history-slide-7.jpg",
+      "history-slide-8.jpg",
+      "history-slide-9.jpg",
+      "history-slide-10.jpg"
+    ],
     "slides": [
       "slide-1.jpg",
       "slide-2.jpg",
@@ -24,6 +37,13 @@
     ]
   },
   "captions": {
+    "history": {
+      "instagram": "2,400 years from a hole in the wall to the camera in your pocket.\n\n400 BCE: The first written description of a pinhole image\n1021: Experiments with a dark room and candles\n1568: The first aperture\n1827: The oldest surviving photograph\n1839: Photography is given to the world\n1840: A lens fast enough for portraits\n\nThe full story, with 50 moments, sources and charts: glassbox.how/e/cameraclear/history (link in bio)\n\nThen play with how it works: glassbox.how/cameraclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #camera #photography #optics #aperture #shutterspeed #iso #history",
+      "youtube": {
+        "title": "The history of the camera in 45 seconds #shorts",
+        "description": "2,400 years from a hole in the wall to the camera in your pocket.\n\n400 BCE · The first written description of a pinhole image (Mozi and the Mohists)\n1021 · Experiments with a dark room and candles (Ibn al-Haytham (Alhazen))\n1568 · The first aperture (Daniele Barbaro)\n1827 · The oldest surviving photograph (Nicéphore Niépce)\n1839 · Photography is given to the world (Louis Daguerre)\n1840 · A lens fast enough for portraits (Joseph Petzval)\n\n▶ Full history: https://glassbox.how/e/cameraclear/history/\n▶ Play with it: https://glassbox.how/e/cameraclear/\n\n#glassbox #howitworks #explained #history"
+      }
+    },
     "instagram": "How does a camera actually see?\n\nA dark box, a hole, and an upside-down world. Take a real camera apart in 3D and learn what aperture, shutter speed and ISO really do.\n\n→ Every camera is just a dark box with a hole in it.\n→ Bigger hole: a brighter picture, but a blurrier one.\n→ A lens bends every ray back to one point. Bright and sharp.\n→ Inside a real camera: lens, iris, shutter, sensor.\n→ Aperture: wide melts the background. Narrow keeps it all sharp.\n\nPlay with it yourself. It's free and open source: glassbox.how/cameraclear (link in bio)\n\nBox No. 001 of 365. Follow @glassbox.how for a new \"how it works\" every day.\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #camera #photography #optics #aperture #shutterspeed #iso #depthoffield #threejs",
     "carousel": "Swipe through: How does a camera actually see?\n\nA dark box, a hole, and an upside-down world. Take a real camera apart in 3D and learn what aperture, shutter speed and ISO really do.\n\nSave this for later, then play with the interactive version at glassbox.how/cameraclear (link in bio).\n\nBox No. 001 · @glassbox.how\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #camera #photography #optics #aperture #shutterspeed #iso",
     "youtube": {
@@ -81,8 +101,26 @@
       "service": "tiktok",
       "kind": "video",
       "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "history-reel",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "youtube",
+      "kind": "history-short",
+      "offsetHours": 2,
+      "enabled": false
+    },
+    {
+      "service": "instagram",
+      "kind": "history-carousel",
+      "offsetHours": 6,
+      "enabled": false
     }
   ],
   "thumbnailOffsetMs": 1200,
-  "updatedAt": "2026-09-26T15:12:14.428Z"
+  "updatedAt": "2026-09-26T15:51:37.691Z"
 }

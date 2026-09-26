@@ -1,0 +1,1209 @@
+{
+  "title": "The history of the camera",
+  "tagline": "2,400 years from a hole in the wall to the camera in your pocket.",
+  "intro": "Nobody invented the camera in one go. A Chinese philosopher noticed that light through a small hole paints an upside-down picture. Arab and European scholars turned that into a tool. Chemists spent a century learning to make the picture stay. Then engineers made it fast, cheap, colourful, digital and, finally, part of everyone's phone. This is that story, one step at a time.",
+  "eras": [
+    {
+      "id": "shadow",
+      "name": "Light in a dark room",
+      "from": -400,
+      "to": 1700,
+      "color": "#c49bff",
+      "summary": "People notice that a small hole projects an upside-down image, explain why, and add a lens, an aperture and a mirror. There's still no way to keep the picture."
+    },
+    {
+      "id": "fix",
+      "name": "Making the picture stay",
+      "from": 1700,
+      "to": 1851,
+      "color": "#ffb547",
+      "summary": "Chemistry catches up with optics. Light-sensitive silver, then the first surviving photograph, then two rival processes announced in the same year."
+    },
+    {
+      "id": "everyone",
+      "name": "Photography for everyone",
+      "from": 1851,
+      "to": 1925,
+      "color": "#ff7a59",
+      "summary": "Exposures fall from minutes to fractions of a second. Film comes on a roll, a camera costs a dollar, and colour arrives."
+    },
+    {
+      "id": "film",
+      "name": "The 35 mm age",
+      "from": 1925,
+      "to": 1975,
+      "color": "#5ce1a9",
+      "summary": "Small precise cameras, single-lens reflex viewing, electronic flash, colour slides and instant prints."
+    },
+    {
+      "id": "digital",
+      "name": "From film to pixels",
+      "from": 1957,
+      "to": 2008,
+      "color": "#7aa2ff",
+      "summary": "Images become numbers. A chip that turns light into charge makes the digital camera possible, and it slowly replaces film."
+    },
+    {
+      "id": "pocket",
+      "name": "A camera in every pocket",
+      "from": 1997,
+      "to": 2026,
+      "color": "#8ef0ff",
+      "summary": "The camera merges with the phone, software starts doing the work of glass, and scientists build cameras that photograph black holes."
+    }
+  ],
+  "events": [
+    {
+      "year": -400,
+      "date": "c. 400 BCE",
+      "era": "shadow",
+      "art": "obscura",
+      "key": true,
+      "title": "The first written description of a pinhole image",
+      "who": "Mozi and the Mohists",
+      "where": "China",
+      "country": "China",
+      "text": "The Mohist Canon, a text associated with the philosopher Mozi, describes how light passing through a small hole forms an inverted image, and explains the inversion with light travelling in straight lines.",
+      "why": "It's the oldest known explanation of the principle every camera still uses.",
+      "box": "obscura",
+      "sources": [
+        0,
+        1
+      ]
+    },
+    {
+      "year": -330,
+      "date": "c. 330 BCE",
+      "era": "shadow",
+      "art": "eclipse",
+      "title": "Crescent suns under a tree",
+      "who": "Aristotle (attributed)",
+      "where": "Greece",
+      "country": "Greece",
+      "text": "The Problems, a work attributed to Aristotle or his school, asks why sunlight through a square gap makes a round spot, and why a partial solar eclipse throws crescent-shaped spots through gaps in leaves.",
+      "why": "An early record that small openings project the shape of the light source, not the shape of the hole.",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "year": 1021,
+      "date": "1011–1021",
+      "era": "shadow",
+      "art": "candles",
+      "key": true,
+      "title": "Experiments with a dark room and candles",
+      "who": "Ibn al-Haytham (Alhazen)",
+      "where": "Cairo, Egypt",
+      "country": "Egypt",
+      "text": "In his Book of Optics, Ibn al-Haytham describes placing several candles outside a darkened room and seeing a separate image of each flame through the opening. Cover a candle and only its image disappears. He also argued, correctly, that we see because light enters the eye, not because the eye sends out rays.",
+      "why": "He turned the pinhole effect into a controlled experiment, and his Book of Optics shaped optics in Europe for centuries.",
+      "box": "obscura",
+      "sources": [
+        0,
+        2
+      ]
+    },
+    {
+      "year": 1502,
+      "date": "c. 1502",
+      "era": "shadow",
+      "art": "eye",
+      "title": "An artificial eye",
+      "who": "Leonardo da Vinci",
+      "where": "Italy",
+      "country": "Italy",
+      "text": "Leonardo's notebooks (the Codex Atlanticus) describe the camera obscura in detail and compare it with the human eye.",
+      "why": "It links the camera to the eye, a comparison still used to teach both.",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "year": 1544,
+      "date": "24 January 1544",
+      "era": "shadow",
+      "art": "eclipse",
+      "title": "The first published picture of a camera obscura",
+      "who": "Gemma Frisius",
+      "where": "Leuven, Belgium",
+      "country": "Belgium",
+      "text": "Gemma Frisius used a camera obscura to watch a solar eclipse safely, and in 1545 published a drawing of it: a room with a hole, and the eclipsed Sun projected on the far wall.",
+      "why": "The camera obscura became a scientific instrument, and astronomers kept using it to observe the Sun.",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "year": 1550,
+      "date": "1550",
+      "era": "shadow",
+      "art": "lens",
+      "title": "Put a lens in the hole",
+      "who": "Gerolamo Cardano",
+      "where": "Milan, Italy",
+      "country": "Italy",
+      "text": "Cardano suggested replacing the pinhole with a convex glass lens, making the image far brighter.",
+      "why": "The lens solves the pinhole's trade-off between brightness and sharpness, which is exactly what the box's first chapter shows.",
+      "box": "obscura",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "year": 1558,
+      "date": "1558",
+      "era": "shadow",
+      "art": "obscura",
+      "title": "A best-seller about magic and optics",
+      "who": "Giambattista della Porta",
+      "where": "Naples, Italy",
+      "country": "Italy",
+      "text": "Della Porta's Magia Naturalis described the camera obscura as a way to entertain guests and help artists draw. Its 1589 edition added a lens and a mirror to turn the image the right way round.",
+      "why": "It made the camera obscura famous across Europe.",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "year": 1568,
+      "date": "1568",
+      "era": "shadow",
+      "art": "aperture",
+      "key": true,
+      "title": "The first aperture",
+      "who": "Daniele Barbaro",
+      "where": "Venice, Italy",
+      "country": "Italy",
+      "text": "Barbaro described narrowing the opening in front of the lens to make the image sharper: the first recorded use of what we now call an aperture, or stopping down.",
+      "why": "Every camera since has let you trade light for sharpness this way.",
+      "box": "aperture",
+      "sources": [
+        0
+      ]
+    },
+    {
+      "year": 1604,
+      "date": "1604",
+      "era": "shadow",
+      "art": "obscura",
+      "title": "The name “camera obscura”",
+      "who": "Johannes Kepler",
+      "where": "Prague",
+      "country": "Czechia",
+      "text": "Kepler used the Latin phrase camera obscura, “dark room”, and later built a portable tent version for drawing landscapes. He also explained how the eye's lens focuses an image on the retina.",
+      "why": "The English word “camera” comes from this: in Latin it simply means “room”.",
+      "sources": [
+        0,
+        3
+      ]
+    },
+    {
+      "year": 1685,
+      "date": "1685–1686",
+      "era": "shadow",
+      "art": "reflex",
+      "title": "A portable box with a mirror",
+      "who": "Johann Zahn",
+      "where": "Würzburg, Germany",
+      "country": "Germany",
+      "text": "Zahn designed small, portable camera obscuras with a lens and a 45° mirror that reflected the image up onto a glass screen for tracing.",
+      "why": "The same mirror trick returns 250 years later in the single-lens reflex camera.",
+      "sources": [
+        0,
+        3
+      ]
+    },
+    {
+      "year": 1717,
+      "date": "1717",
+      "era": "fix",
+      "art": "flask",
+      "title": "Silver darkens in light",
+      "who": "Johann Heinrich Schulze",
+      "where": "Altdorf, Germany",
+      "country": "Germany",
+      "text": "Schulze found that a mixture containing silver salts turned dark where light hit it, not because of heat. He made temporary words appear by covering a bottle with stencils.",
+      "why": "Light-sensitive silver was the heart of photography for the next 250 years.",
+      "sources": [
+        4
+      ]
+    },
+    {
+      "year": 1802,
+      "date": "1802",
+      "era": "fix",
+      "art": "leaf",
+      "title": "Pictures that faded away",
+      "who": "Thomas Wedgwood and Humphry Davy",
+      "where": "England",
+      "country": "United Kingdom",
+      "text": "Wedgwood captured silhouettes and camera images on paper or leather treated with silver nitrate, and Davy published the results. But they couldn't stop the images darkening, so they could only be looked at by candlelight.",
+      "why": "Capturing an image wasn't the hard part. Making it permanent was.",
+      "sources": [
+        4
+      ]
+    },
+    {
+      "year": 1827,
+      "date": "1826 or 1827",
+      "era": "fix",
+      "art": "plate",
+      "key": true,
+      "title": "The oldest surviving photograph",
+      "who": "Nicéphore Niépce",
+      "where": "Saint-Loup-de-Varennes, France",
+      "country": "France",
+      "text": "From an upstairs window, Niépce photographed the rooftops of his estate on a pewter plate coated with bitumen, which hardens in light. The exposure lasted at least eight hours, and probably several days, which is why sunlight falls on both sides of the buildings. He called the process heliography.",
+      "why": "It's the first camera image that still exists. You can see it at the Harry Ransom Center in Austin, Texas.",
+      "sources": [
+        5,
+        4
+      ]
+    },
+    {
+      "year": 1835,
+      "date": "August 1835",
+      "era": "fix",
+      "art": "window",
+      "title": "The oldest surviving negative",
+      "who": "William Henry Fox Talbot",
+      "where": "Lacock Abbey, England",
+      "country": "United Kingdom",
+      "text": "Talbot made a tiny paper negative of a latticed window, with light and dark reversed. From a negative you can print many positives.",
+      "why": "The negative–positive idea powered film photography until the digital age.",
+      "sources": [
+        6
+      ]
+    },
+    {
+      "year": 1838,
+      "date": "1838",
+      "era": "fix",
+      "art": "person",
+      "title": "The first photograph of a person",
+      "who": "Louis Daguerre",
+      "where": "Paris, France",
+      "country": "France",
+      "text": "Daguerre photographed the busy Boulevard du Temple. The exposure was so long that moving traffic vanished, except a man having his boots polished, who stood still long enough to appear.",
+      "why": "It shows why exposure time mattered: anything that moved simply disappeared.",
+      "box": "shutter",
+      "sources": [
+        7
+      ]
+    },
+    {
+      "year": 1839,
+      "date": "19 August 1839",
+      "era": "fix",
+      "art": "daguerreotype",
+      "key": true,
+      "title": "Photography is given to the world",
+      "who": "Louis Daguerre",
+      "where": "Paris, France",
+      "country": "France",
+      "text": "The French government bought Daguerre's process and published it for anyone to use. A daguerreotype was a one-off, astonishingly detailed image on a polished silver-coated copper plate, exposed for several minutes.",
+      "why": "Photography spread around the world within months. 19 August is still World Photography Day.",
+      "sources": [
+        7,
+        4
+      ]
+    },
+    {
+      "year": 1839,
+      "date": "1839",
+      "era": "fix",
+      "art": "selfie",
+      "title": "The first photographic self-portrait",
+      "who": "Robert Cornelius",
+      "where": "Philadelphia, USA",
+      "country": "United States",
+      "text": "Cornelius uncovered the lens, ran into the frame, sat still for a minute or more, and covered the lens again.",
+      "why": "Often called the first selfie.",
+      "sources": [
+        4
+      ]
+    },
+    {
+      "year": 1839,
+      "date": "1839",
+      "era": "fix",
+      "art": "word",
+      "title": "The word “photography”",
+      "who": "Sir John Herschel",
+      "where": "England",
+      "country": "United Kingdom",
+      "text": "Herschel popularised “photography” (Greek for “drawing with light”) and later “negative” and “positive”. He also showed that sodium thiosulfate, “hypo”, fixes an image so it stops reacting to light.",
+      "why": "Hypo solved the problem that defeated Wedgwood.",
+      "sources": [
+        4
+      ]
+    },
+    {
+      "year": 1840,
+      "date": "1840–1841",
+      "era": "fix",
+      "art": "lens",
+      "key": true,
+      "title": "A lens fast enough for portraits",
+      "who": "Joseph Petzval",
+      "where": "Vienna, Austria",
+      "country": "Austria",
+      "text": "Petzval calculated a portrait lens with an aperture of about f/3.6, many times brighter than the lenses on early daguerreotype cameras. Voigtländer built it into a camera in 1841.",
+      "why": "Exposures dropped to under a minute, and the portrait studio business was born.",
+      "box": "aperture",
+      "sources": [
+        3
+      ]
+    },
+    {
+      "year": 1841,
+      "date": "1841",
+      "era": "fix",
+      "art": "window",
+      "title": "The calotype",
+      "who": "William Henry Fox Talbot",
+      "where": "England",
+      "country": "United Kingdom",
+      "text": "Talbot patented an improved paper-negative process that brought out a hidden (“latent”) image with chemicals, cutting exposures to about a minute.",
+      "why": "Developing a latent image is how all film photography worked.",
+      "box": "iso",
+      "sources": [
+        6
+      ]
+    },
+    {
+      "year": 1843,
+      "date": "1843",
+      "era": "fix",
+      "art": "leaf",
+      "title": "The first book illustrated with photographs",
+      "who": "Anna Atkins",
+      "where": "England",
+      "country": "United Kingdom",
+      "text": "Atkins published Photographs of British Algae, made by laying seaweed on light-sensitive cyanotype paper. The blue prints are still beautiful today.",
+      "why": "She's widely regarded as one of the first women photographers, and the first to publish a book of photographs.",
+      "sources": [
+        4
+      ]
+    },
+    {
+      "year": 1851,
+      "date": "1851",
+      "era": "everyone",
+      "art": "plate",
+      "title": "Glass negatives in seconds",
+      "who": "Frederick Scott Archer",
+      "where": "London, England",
+      "country": "United Kingdom",
+      "text": "The wet collodion process coated glass plates just before exposure. It combined the sharpness of the daguerreotype with printable negatives, and exposures fell to a few seconds.",
+      "why": "It made photography practical for portraits, war reporting and travel. Archer didn't patent it.",
+      "sources": [
+        4
+      ]
+    },
+    {
+      "year": 1861,
+      "date": "17 May 1861",
+      "era": "everyone",
+      "art": "colour",
+      "key": true,
+      "title": "The first colour photograph",
+      "who": "James Clerk Maxwell and Thomas Sutton",
+      "where": "London, England",
+      "country": "United Kingdom",
+      "text": "Maxwell showed a tartan ribbon photographed three times, through red, green and blue filters, then projected the three images on top of each other.",
+      "why": "Every digital sensor still sees colour this way, through red, green and blue filters.",
+      "box": "iso",
+      "sources": [
+        8
+      ]
+    },
+    {
+      "year": 1862,
+      "date": "1862",
+      "era": "everyone",
+      "art": "studio",
+      "title": "A studio in Nagasaki",
+      "who": "Ueno Hikoma",
+      "where": "Nagasaki, Japan",
+      "country": "Japan",
+      "text": "Ueno Hikoma opened one of Japan's first commercial photography studios after learning chemistry and photography from Dutch teachers in Nagasaki.",
+      "why": "Photography spread worldwide within a generation of its invention.",
+      "sources": [
+        4
+      ]
+    },
+    {
+      "year": 1878,
+      "date": "1878",
+      "era": "everyone",
+      "art": "plate",
+      "title": "The dry plate",
+      "who": "Richard Leach Maddox, Charles Bennett and others",
+      "where": "England",
+      "country": "United Kingdom",
+      "text": "Gelatin dry plates, proposed by Maddox in 1871 and made much more sensitive by Bennett in 1878, could be bought ready-made and kept for months. Exposures dropped to fractions of a second.",
+      "why": "Cameras could now be held by hand, and needed real shutters.",
+      "box": "iso",
+      "sources": [
+        4
+      ]
+    },
+    {
+      "year": 1878,
+      "date": "June 1878",
+      "era": "everyone",
+      "art": "horse",
+      "key": true,
+      "title": "The horse in motion",
+      "who": "Eadweard Muybridge",
+      "where": "Palo Alto, California, USA",
+      "country": "United States",
+      "text": "Muybridge lined up twelve cameras with very fast shutters triggered as a galloping horse passed. The photos proved that all four hooves leave the ground at once.",
+      "why": "A fast shutter showed something the human eye had never been able to see. It pointed the way to cinema.",
+      "box": "shutter",
+      "sources": [
+        9
+      ]
+    },
+    {
+      "year": 1884,
+      "date": "1874–1884",
+      "era": "everyone",
+      "art": "studio",
+      "title": "A royal court photographer",
+      "who": "Lala Deen Dayal",
+      "where": "Indore and Hyderabad, India",
+      "country": "India",
+      "text": "Lala Deen Dayal set up studios in India and became court photographer to the Nizam of Hyderabad. His thousands of glass-plate negatives record late 19th-century India.",
+      "why": "He's one of the most celebrated early photographers in India.",
+      "sources": [
+        4
+      ]
+    },
+    {
+      "year": 1888,
+      "date": "1888",
+      "era": "everyone",
+      "art": "boxcamera",
+      "key": true,
+      "title": "“You press the button, we do the rest”",
+      "who": "George Eastman, Kodak",
+      "where": "Rochester, New York, USA",
+      "country": "United States",
+      "text": "The first Kodak came loaded with a roll for 100 pictures. When it was full, you mailed the whole camera back to Kodak, which developed the prints and reloaded the camera. A year later, Eastman switched to transparent celluloid film.",
+      "why": "Anyone could take photographs without knowing any chemistry.",
+      "sources": [
+        10,
+        3
+      ]
+    },
+    {
+      "year": 1900,
+      "date": "1900",
+      "era": "everyone",
+      "art": "boxcamera",
+      "title": "The one-dollar camera",
+      "who": "Kodak",
+      "where": "Rochester, New York, USA",
+      "country": "United States",
+      "text": "The Brownie box camera cost one dollar and was marketed to children.",
+      "why": "Snapshots of everyday life became normal.",
+      "sources": [
+        10
+      ]
+    },
+    {
+      "year": 1907,
+      "date": "1907",
+      "era": "everyone",
+      "art": "colour",
+      "title": "Colour you could buy",
+      "who": "Auguste and Louis Lumière",
+      "where": "Lyon, France",
+      "country": "France",
+      "text": "The Autochrome plate used millions of microscopic grains of dyed potato starch as red, green and blue filters, giving soft, dreamy colour photographs.",
+      "why": "A mosaic of tiny colour filters is exactly how a modern image sensor works.",
+      "box": "iso",
+      "sources": [
+        4
+      ]
+    },
+    {
+      "year": 1925,
+      "date": "1925",
+      "era": "film",
+      "art": "rangefinder",
+      "key": true,
+      "title": "The Leica and 35 mm film",
+      "who": "Oskar Barnack, Leitz",
+      "where": "Wetzlar, Germany",
+      "country": "Germany",
+      "text": "Barnack built a small, precise camera around the 35 mm film used in cinema, with a prototype from about 1913. The Leica I went on sale in 1925.",
+      "why": "A small camera with a sharp lens changed photojournalism. 35 mm is still the “full-frame” size today.",
+      "box": "focal",
+      "sources": [
+        3
+      ]
+    },
+    {
+      "year": 1931,
+      "date": "1931",
+      "era": "film",
+      "art": "flash",
+      "title": "Freezing time with a strobe",
+      "who": "Harold Edgerton",
+      "where": "MIT, Cambridge, Massachusetts, USA",
+      "country": "United States",
+      "text": "Edgerton developed the electronic stroboscopic flash, with bursts of light lasting a tiny fraction of a second, and photographed bullets, milk drops and hummingbirds in mid-motion.",
+      "why": "Electronic flash is in almost every camera and phone.",
+      "box": "shutter",
+      "sources": [
+        11
+      ]
+    },
+    {
+      "year": 1936,
+      "date": "1936",
+      "era": "film",
+      "art": "colour",
+      "title": "Kodachrome",
+      "who": "Leopold Godowsky Jr. and Leopold Mannes, Kodak",
+      "where": "Rochester, New York, USA",
+      "country": "United States",
+      "text": "Two musicians working with Kodak created a colour slide film with rich, long-lasting colour. It was made for 74 years, until 2009.",
+      "why": "Colour photography became part of everyday life.",
+      "sources": [
+        4
+      ]
+    },
+    {
+      "year": 1936,
+      "date": "1936",
+      "era": "film",
+      "art": "reflex",
+      "key": true,
+      "title": "The 35 mm single-lens reflex",
+      "who": "Ihagee (Kine Exakta)",
+      "where": "Dresden, Germany",
+      "country": "Germany",
+      "text": "The Kine Exakta is widely considered the first 35 mm single-lens reflex (SLR): a mirror shows you exactly what the lens sees, then flips up out of the way when you take the picture.",
+      "why": "Zahn's 1685 mirror, now inside a camera. SLRs dominated serious photography for half a century.",
+      "box": "anatomy",
+      "sources": [
+        3
+      ]
+    },
+    {
+      "year": 1948,
+      "date": "26 November 1948",
+      "era": "film",
+      "art": "instant",
+      "key": true,
+      "title": "Instant photography",
+      "who": "Edwin Land, Polaroid",
+      "where": "Boston, USA",
+      "country": "United States",
+      "text": "Land's three-year-old daughter asked why she couldn't see a photo straight away. The Polaroid Land Camera Model 95 answered her: a print developed inside the camera in about a minute.",
+      "why": "Instant results shaped how people expect photos to work, long before screens.",
+      "sources": [
+        12
+      ]
+    },
+    {
+      "year": 1957,
+      "date": "1957",
+      "era": "digital",
+      "art": "pixels",
+      "title": "The first digital image",
+      "who": "Russell Kirsch",
+      "where": "National Bureau of Standards, Washington, USA",
+      "country": "United States",
+      "text": "Kirsch scanned a photo of his baby son into a computer as a grid of 176 × 176 black-and-white dots.",
+      "why": "The first photo made of pixels.",
+      "sources": [
+        13
+      ]
+    },
+    {
+      "year": 1968,
+      "date": "24 December 1968",
+      "era": "film",
+      "art": "earth",
+      "title": "Earthrise",
+      "who": "William Anders, Apollo 8",
+      "where": "Orbiting the Moon",
+      "country": "Space",
+      "text": "Anders photographed the Earth rising over the Moon's horizon with a Hasselblad camera and colour film.",
+      "why": "One of the most influential photographs ever taken.",
+      "sources": [
+        4
+      ]
+    },
+    {
+      "year": 1969,
+      "date": "1969",
+      "era": "digital",
+      "art": "chip",
+      "key": true,
+      "title": "The charge-coupled device (CCD)",
+      "who": "Willard Boyle and George E. Smith",
+      "where": "Bell Labs, New Jersey, USA",
+      "country": "United States",
+      "text": "Boyle and Smith invented a chip that turns light into electric charge and passes the charge along, pixel by pixel, to be measured.",
+      "why": "It made digital cameras (and the Hubble Space Telescope's cameras) possible, and won the 2009 Nobel Prize in Physics.",
+      "box": "iso",
+      "sources": [
+        14
+      ]
+    },
+    {
+      "year": 1975,
+      "date": "December 1975",
+      "era": "digital",
+      "art": "digital",
+      "key": true,
+      "title": "The first digital camera",
+      "who": "Steven Sasson, Kodak",
+      "where": "Rochester, New York, USA",
+      "country": "United States",
+      "text": "Sasson's prototype weighed about 3.6 kg, captured a 100 × 100 pixel (0.01 megapixel) black-and-white image, and took 23 seconds to record it onto a cassette tape.",
+      "why": "Kodak had invented the technology that would later end its film business.",
+      "sources": [
+        15
+      ]
+    },
+    {
+      "year": 1977,
+      "date": "1977",
+      "era": "film",
+      "art": "focus",
+      "title": "Autofocus",
+      "who": "Konica (C35 AF)",
+      "where": "Japan",
+      "country": "Japan",
+      "text": "The Konica C35 AF was the first mass-produced autofocus camera. It measured distance and moved the lens for you.",
+      "why": "Focusing, the hardest skill of early photography, became automatic.",
+      "box": "focus",
+      "sources": [
+        3
+      ]
+    },
+    {
+      "year": 1991,
+      "date": "1991",
+      "era": "digital",
+      "art": "reflex",
+      "title": "The first commercial digital SLR",
+      "who": "Kodak (DCS 100)",
+      "where": "Rochester, New York, USA",
+      "country": "United States",
+      "text": "Kodak fitted a 1.3 megapixel sensor to a Nikon F3 body, wired to a separate storage unit. It was made for press photographers and cost tens of thousands of dollars.",
+      "why": "Newspapers began to go digital.",
+      "sources": [
+        3
+      ]
+    },
+    {
+      "year": 1993,
+      "date": "1993",
+      "era": "digital",
+      "art": "chip",
+      "title": "The CMOS image sensor",
+      "who": "Eric Fossum and team",
+      "where": "NASA Jet Propulsion Laboratory, California, USA",
+      "country": "United States",
+      "text": "Fossum's team developed the CMOS active-pixel sensor, which amplifies each pixel on the chip itself and can be made with ordinary chip-making processes.",
+      "why": "Cheap, low-power CMOS sensors are in almost every camera and phone today.",
+      "box": "iso",
+      "sources": [
+        16
+      ]
+    },
+    {
+      "year": 1997,
+      "date": "11 June 1997",
+      "era": "pocket",
+      "art": "phone",
+      "title": "A photo shared from a phone",
+      "who": "Philippe Kahn",
+      "where": "Santa Cruz, California, USA",
+      "country": "United States",
+      "text": "In the maternity ward, Kahn wired a digital camera to his mobile phone and a laptop and sent a picture of his newborn daughter to family and friends.",
+      "why": "The idea of instantly shared photos began here.",
+      "sources": [
+        17
+      ]
+    },
+    {
+      "year": 2000,
+      "date": "November 2000",
+      "era": "pocket",
+      "art": "phone",
+      "key": true,
+      "title": "The camera phone goes on sale",
+      "who": "Sharp (J-SH04), J-Phone",
+      "where": "Japan",
+      "country": "Japan",
+      "text": "The Sharp J-SH04 had a 0.11 megapixel camera and could send photos to other phones. (Kyocera's VP-210 video phone, from 1999, had a camera too.)",
+      "why": "Within two decades, phones would take the large majority of the world's photos.",
+      "sources": [
+        17
+      ]
+    },
+    {
+      "year": 2007,
+      "date": "2007",
+      "era": "pocket",
+      "art": "phone",
+      "title": "The smartphone camera",
+      "who": "Apple (iPhone)",
+      "where": "California, USA",
+      "country": "United States",
+      "text": "The first iPhone's camera had only 2 megapixels and no flash, but it came with a big touchscreen and the internet in the same device.",
+      "why": "Taking, viewing and sharing a photo became one gesture.",
+      "sources": [
+        3
+      ]
+    },
+    {
+      "year": 2008,
+      "date": "2008",
+      "era": "digital",
+      "art": "rangefinder",
+      "title": "The mirrorless camera",
+      "who": "Panasonic (Lumix G1)",
+      "where": "Japan",
+      "country": "Japan",
+      "text": "The Lumix G1 removed the SLR's mirror and showed the sensor's live image on an electronic viewfinder, while keeping interchangeable lenses.",
+      "why": "Most new interchangeable-lens cameras are now mirrorless.",
+      "box": "anatomy",
+      "sources": [
+        3
+      ]
+    },
+    {
+      "year": 2012,
+      "date": "19 January 2012",
+      "era": "pocket",
+      "art": "film",
+      "title": "Kodak files for bankruptcy",
+      "who": "Eastman Kodak",
+      "where": "Rochester, New York, USA",
+      "country": "United States",
+      "text": "The company that put a camera in everyone's hands, and invented the digital camera, entered bankruptcy as film sales collapsed. It later re-emerged as a much smaller company.",
+      "why": "A famous lesson in how technology can overtake its own inventors.",
+      "sources": [
+        10
+      ]
+    },
+    {
+      "year": 2018,
+      "date": "2018",
+      "era": "pocket",
+      "art": "night",
+      "title": "Software that sees in the dark",
+      "who": "Google (Night Sight) and others",
+      "where": "California, USA",
+      "country": "United States",
+      "text": "Computational photography merges many quick frames into one picture, lining them up and averaging away noise. Night modes can make bright, clean photos in near darkness without a flash.",
+      "why": "Clever maths now does part of the job that big lenses and sensors used to do.",
+      "box": "iso",
+      "sources": [
+        18
+      ]
+    },
+    {
+      "year": 2019,
+      "date": "10 April 2019",
+      "era": "pocket",
+      "art": "blackhole",
+      "key": true,
+      "title": "A photograph of a black hole",
+      "who": "Event Horizon Telescope collaboration",
+      "where": "Radio telescopes around the world",
+      "country": "Worldwide",
+      "text": "Radio dishes on several continents worked together as one virtual telescope the size of the Earth to image the shadow of the black hole at the centre of the galaxy M87.",
+      "why": "Still the same idea as Mozi's hole in the wall: collect light (here, radio waves) and rebuild an image.",
+      "sources": [
+        19
+      ]
+    },
+    {
+      "year": 2025,
+      "date": "June 2025",
+      "era": "pocket",
+      "art": "telescope",
+      "title": "The largest digital camera ever built",
+      "who": "Vera C. Rubin Observatory",
+      "where": "Cerro Pachón, Chile",
+      "country": "Chile",
+      "text": "Rubin's LSST camera, about the size of a small car, has a 3,200 megapixel sensor. Its first images were released in 2025, and it will photograph the whole southern sky every few nights for ten years.",
+      "why": "From 0.01 megapixels in 1975 to 3,200 in 50 years.",
+      "sources": [
+        20
+      ]
+    }
+  ],
+  "firsts": [
+    {
+      "label": "First written description",
+      "value": "c. 400 BCE",
+      "who": "Mozi, China"
+    },
+    {
+      "label": "First surviving photograph",
+      "value": "1826–27",
+      "who": "Nicéphore Niépce, France"
+    },
+    {
+      "label": "First photo of a person",
+      "value": "1838",
+      "who": "Louis Daguerre, France"
+    },
+    {
+      "label": "First colour photograph",
+      "value": "1861",
+      "who": "James Clerk Maxwell, UK"
+    },
+    {
+      "label": "First digital camera",
+      "value": "1975",
+      "who": "Steven Sasson, USA"
+    },
+    {
+      "label": "First camera phone on sale",
+      "value": "2000",
+      "who": "Sharp, Japan"
+    }
+  ],
+  "people": [
+    {
+      "name": "Mozi",
+      "life": "c. 470 – c. 391 BCE",
+      "role": "Philosopher",
+      "from": "China",
+      "note": "His school recorded the earliest known explanation of the pinhole image."
+    },
+    {
+      "name": "Ibn al-Haytham",
+      "life": "c. 965 – c. 1040",
+      "role": "Scientist",
+      "from": "Basra and Cairo",
+      "note": "Studied the camera obscura by experiment in his Book of Optics."
+    },
+    {
+      "name": "Nicéphore Niépce",
+      "life": "1765 – 1833",
+      "role": "Inventor",
+      "from": "France",
+      "note": "Made the oldest surviving camera photograph."
+    },
+    {
+      "name": "Louis Daguerre",
+      "life": "1787 – 1851",
+      "role": "Artist and inventor",
+      "from": "France",
+      "note": "Invented the daguerreotype, the first practical photographic process."
+    },
+    {
+      "name": "William Henry Fox Talbot",
+      "life": "1800 – 1877",
+      "role": "Scientist",
+      "from": "England",
+      "note": "Invented the negative–positive process."
+    },
+    {
+      "name": "Anna Atkins",
+      "life": "1799 – 1871",
+      "role": "Botanist and photographer",
+      "from": "England",
+      "note": "Published the first book illustrated with photographs."
+    },
+    {
+      "name": "James Clerk Maxwell",
+      "life": "1831 – 1879",
+      "role": "Physicist",
+      "from": "Scotland",
+      "note": "Showed the first colour photograph using red, green and blue."
+    },
+    {
+      "name": "Eadweard Muybridge",
+      "life": "1830 – 1904",
+      "role": "Photographer",
+      "from": "England and USA",
+      "note": "Froze motion with fast shutters."
+    },
+    {
+      "name": "George Eastman",
+      "life": "1854 – 1932",
+      "role": "Entrepreneur",
+      "from": "USA",
+      "note": "Founded Kodak and put roll-film cameras in everyone's hands."
+    },
+    {
+      "name": "Oskar Barnack",
+      "life": "1879 – 1936",
+      "role": "Engineer",
+      "from": "Germany",
+      "note": "Designed the Leica, the camera that made 35 mm the standard."
+    },
+    {
+      "name": "Edwin Land",
+      "life": "1909 – 1991",
+      "role": "Scientist and inventor",
+      "from": "USA",
+      "note": "Invented instant photography."
+    },
+    {
+      "name": "Willard Boyle & George E. Smith",
+      "life": "Boyle 1924 – 2011 · Smith born 1930",
+      "role": "Physicists",
+      "from": "Canada and USA",
+      "note": "Invented the CCD image sensor; Nobel Prize 2009."
+    },
+    {
+      "name": "Steven Sasson",
+      "life": "born 1950",
+      "role": "Engineer",
+      "from": "USA",
+      "note": "Built the first digital camera at Kodak."
+    },
+    {
+      "name": "Eric Fossum",
+      "life": "born 1957",
+      "role": "Engineer",
+      "from": "USA",
+      "note": "Led the invention of the CMOS image sensor used in almost every phone."
+    }
+  ],
+  "series": [
+    {
+      "id": "speed",
+      "title": "How quickly a camera could take a picture",
+      "unit": "seconds",
+      "log": true,
+      "lower": "better",
+      "caption": "From a day-long exposure to one thirty-two-thousandth of a second: roughly a billion times faster. Values are typical for each technology and approximate.",
+      "points": [
+        {
+          "year": 1827,
+          "value": 28800,
+          "label": "Niépce's heliograph: 8 hours or more"
+        },
+        {
+          "year": 1839,
+          "value": 300,
+          "label": "Daguerreotype: several minutes"
+        },
+        {
+          "year": 1841,
+          "value": 40,
+          "label": "Petzval lens: under a minute"
+        },
+        {
+          "year": 1851,
+          "value": 5,
+          "label": "Wet collodion: a few seconds"
+        },
+        {
+          "year": 1878,
+          "value": 0.04,
+          "label": "Dry plate: about 1/25 s"
+        },
+        {
+          "year": 1925,
+          "value": 0.002,
+          "label": "Leica: 1/500 s"
+        },
+        {
+          "year": 1959,
+          "value": 0.001,
+          "label": "Pro SLRs: 1/1000 s"
+        },
+        {
+          "year": 1982,
+          "value": 0.00025,
+          "label": "Film SLRs reach 1/4000 s"
+        },
+        {
+          "year": 1988,
+          "value": 0.000125,
+          "label": "Film SLRs reach 1/8000 s"
+        },
+        {
+          "year": 2016,
+          "value": 3.125e-05,
+          "label": "Electronic shutters: 1/32000 s"
+        }
+      ],
+      "after": "film"
+    },
+    {
+      "id": "pixels",
+      "title": "Megapixels in landmark digital cameras",
+      "unit": "megapixels",
+      "log": true,
+      "lower": "worse",
+      "caption": "From 10,000 pixels to 3.2 billion in fifty years.",
+      "points": [
+        {
+          "year": 1975,
+          "value": 0.01,
+          "label": "Sasson's prototype: 0.01 MP"
+        },
+        {
+          "year": 1991,
+          "value": 1.3,
+          "label": "Kodak DCS 100: 1.3 MP"
+        },
+        {
+          "year": 2000,
+          "value": 0.11,
+          "label": "First camera phone: 0.11 MP"
+        },
+        {
+          "year": 2007,
+          "value": 2,
+          "label": "First iPhone: 2 MP"
+        },
+        {
+          "year": 2012,
+          "value": 41,
+          "label": "Nokia 808 PureView: 41 MP"
+        },
+        {
+          "year": 2019,
+          "value": 108,
+          "label": "First 108 MP phones"
+        },
+        {
+          "year": 2023,
+          "value": 200,
+          "label": "200 MP phones"
+        },
+        {
+          "year": 2025,
+          "value": 3200,
+          "label": "Rubin LSST camera: 3,200 MP"
+        }
+      ],
+      "after": "pocket"
+    }
+  ],
+  "facts": [
+    "“Camera” is simply Latin for “room”. Every camera is still a dark room with a hole in it.",
+    "Because Niépce's exposure took so long, the Sun lit both sides of the buildings in the oldest photograph.",
+    "The first photo of a person exists only because he stood still to have his boots polished.",
+    "Your phone sees colour the way Maxwell did in 1861: through red, green and blue filters.",
+    "Kodak built the first digital camera in 1975, but stayed focused on film for decades."
+  ],
+  "sources": [
+    {
+      "title": "Camera obscura",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Camera_obscura"
+    },
+    {
+      "title": "Mohism",
+      "publisher": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/mohism/"
+    },
+    {
+      "title": "Ibn al-Haytham",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Ibn-al-Haytham"
+    },
+    {
+      "title": "History of the camera",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/History_of_the_camera"
+    },
+    {
+      "title": "History of photography",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/History_of_photography"
+    },
+    {
+      "title": "The First Photograph",
+      "publisher": "Harry Ransom Center, University of Texas at Austin",
+      "url": "https://www.hrc.utexas.edu/niepce-heliograph/"
+    },
+    {
+      "title": "William Henry Fox Talbot",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/William-Henry-Fox-Talbot"
+    },
+    {
+      "title": "Daguerreotype",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Daguerreotype"
+    },
+    {
+      "title": "First colour photograph (1861)",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Color_photography"
+    },
+    {
+      "title": "Eadweard Muybridge",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Eadweard-Muybridge"
+    },
+    {
+      "title": "Kodak",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Kodak"
+    },
+    {
+      "title": "Harold Edgerton",
+      "publisher": "MIT Museum",
+      "url": "https://mitmuseum.mit.edu/collections/subject/harold-edgerton"
+    },
+    {
+      "title": "Edwin H. Land",
+      "publisher": "Encyclopaedia Britannica",
+      "url": "https://www.britannica.com/biography/Edwin-Herbert-Land"
+    },
+    {
+      "title": "Russell A. Kirsch and the first digital image",
+      "publisher": "NIST",
+      "url": "https://www.nist.gov/news-events/news/2007/05/fiftieth-anniversary-first-digital-image-marked"
+    },
+    {
+      "title": "The Nobel Prize in Physics 2009",
+      "publisher": "NobelPrize.org",
+      "url": "https://www.nobelprize.org/prizes/physics/2009/summary/"
+    },
+    {
+      "title": "Steven Sasson",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Steven_Sasson"
+    },
+    {
+      "title": "Active-pixel sensor",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Active-pixel_sensor"
+    },
+    {
+      "title": "Camera phone",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Camera_phone"
+    },
+    {
+      "title": "Computational photography",
+      "publisher": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Computational_photography"
+    },
+    {
+      "title": "First image of a black hole",
+      "publisher": "Event Horizon Telescope",
+      "url": "https://eventhorizontelescope.org/press-release-april-10-2019-astronomers-capture-first-image-black-hole"
+    },
+    {
+      "title": "LSST Camera",
+      "publisher": "Vera C. Rubin Observatory",
+      "url": "https://rubinobservatory.org/explore/how-rubin-works/technology/camera"
+    }
+  ]
+}
