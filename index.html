@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CameraClear — how cameras really work</title>
+<meta name="description" content="An interactive 3D game that teaches how cameras work: light, lenses, focus, aperture, shutter speed, ISO, exposure, focal length and depth of field.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='28' fill='%23ffb547'/%3E%3Ccircle cx='32' cy='32' r='14' fill='%230b0d12'/%3E%3Ccircle cx='27' cy='27' r='4' fill='%23fff'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/app.css">
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"
+  }
+}
+</script>
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#" id="brand">
+    <span class="logo" aria-hidden="true"></span>
+    <span class="brand-name">CameraClear</span>
+    <span class="brand-sub">the interactive camera school</span>
+  </a>
+  <div class="xp" title="Your experience points">
+    <span class="lvl" id="lvlName">Pinhole Rookie</span>
+    <span class="xpbar"><i id="xpFill"></i></span>
+    <span class="xptext" id="xpText">0 XP</span>
+  </div>
+  <div class="top-actions">
+    <button class="chip" id="btnGlossary">Glossary</button>
+    <button class="chip icon" id="btnSound" title="Sound on/off">♪</button>
+  </div>
+</header>
+
+<div class="layout">
+  <nav id="chapters" class="chapters" aria-label="Chapters"></nav>
+
+  <main class="stage-wrap">
+    <div id="stage" class="stage"></div>
+    <div class="stage-title"><span id="stKicker"></span><strong id="stTitle"></strong></div>
+    <div class="stage-hint" id="stageHint">Drag to orbit · Scroll to zoom · Right-drag to pan</div>
+    <button id="btnResetView" class="chip reset-view">⟲ Reset view</button>
+    <div id="noGL" class="nogl" hidden>Your browser couldn't start WebGL, which this app needs for its 3D scenes.</div>
+
+    <section id="lcd" class="lcd" hidden>
+      <div class="lcd-top">
+        <span class="lcd-dot"></span><span>Camera screen</span>
+        <span class="lcd-sub">tap the picture to focus</span>
+        <button id="lcdMin" class="lcd-min" title="Minimise">–</button>
+      </div>
+      <div class="lcd-body">
+        <div class="lcd-screen">
+          <canvas id="photo" width="600" height="400"></canvas>
+          <div id="reticle" class="reticle"><span></span></div>
+          <div id="flash" class="flash"></div>
+          <div class="lcd-info" id="lcdInfo"></div>
+          <div class="lcd-mode" id="lcdMode"></div>
+        </div>
+        <div class="lcd-bar">
+          <div class="meter" id="meter" title="Exposure meter: 0 is a correct exposure">
+            <div class="meter-ticks" id="meterTicks"></div>
+            <i id="meterNeedle"></i>
+          </div>
+          <canvas id="histo" width="128" height="40" title="Histogram: shadows on the left, highlights on the right"></canvas>
+          <button id="zebra" class="chip small" title="Stripe the blown-out highlights">Zebras</button>
+          <button id="shoot" class="shoot" title="Take a photo (Space)"><span></span></button>
+        </div>
+        <div id="roll" class="roll"></div>
+      </div>
+    </section>
+  </main>
+
+  <aside id="panel" class="panel"></aside>
+</div>
+
+<div id="toasts" class="toasts" aria-live="polite"></div>
+<div id="modal" class="modal" hidden><div class="modal-card" id="modalCard" role="dialog" aria-modal="true"></div></div>
+
+<script type="module" src="js/app.js"></script>
+<!-- Glassbox bar: served by the hub at glassbox.how/bar.js; harmless 404 when run on its own -->
+<script src="/bar.js" defer></script>
+</body>
+</html>

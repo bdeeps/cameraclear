@@ -1,0 +1,9 @@
+{
+  "name": "cameraclear",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive 3D game that teaches how cameras work",
+  "scripts": {
+    "start": "python3 serve.py 5173"
+  }
+}

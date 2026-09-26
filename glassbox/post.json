@@ -1,0 +1,87 @@
+{
+  "slug": "cameraclear",
+  "box": 1,
+  "question": "How does a camera actually see?",
+  "url": "https://glassbox.how/e/cameraclear/",
+  "app": "https://glassbox.how/cameraclear/",
+  "assets": {
+    "reel": "reel.mp4",
+    "video": "video.mp4",
+    "cover": "cover.jpg",
+    "thumb": "thumb.jpg",
+    "slides": [
+      "slide-1.jpg",
+      "slide-2.jpg",
+      "slide-3.jpg",
+      "slide-4.jpg",
+      "slide-5.jpg",
+      "slide-6.jpg",
+      "slide-7.jpg",
+      "slide-8.jpg",
+      "slide-9.jpg",
+      "slide-10.jpg"
+    ]
+  },
+  "captions": {
+    "instagram": "How does a camera actually see?\n\nA dark box, a hole, and an upside-down world. Take a real camera apart in 3D and learn what aperture, shutter speed and ISO really do.\n\n→ Every camera is just a dark box with a hole in it.\n→ Bigger hole: a brighter picture, but a blurrier one.\n→ A lens bends every ray back to one point. Bright and sharp.\n→ Inside a real camera: lens, iris, shutter, sensor.\n→ Aperture: wide melts the background. Narrow keeps it all sharp.\n\nPlay with it yourself. It's free and open source: glassbox.how/cameraclear (link in bio)\n\nBox No. 001 of 365. Follow @glassbox.how for a new \"how it works\" every day.\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #camera #photography #optics #aperture #shutterspeed #iso #depthoffield #threejs",
+    "carousel": "Swipe through: How does a camera actually see?\n\nA dark box, a hole, and an upside-down world. Take a real camera apart in 3D and learn what aperture, shutter speed and ISO really do.\n\nSave this for later, then play with the interactive version at glassbox.how/cameraclear (link in bio).\n\nBox No. 001 · @glassbox.how\n\n#glassbox #howitworks #explained #learnoninstagram #stem #opensource #camera #photography #optics #aperture #shutterspeed #iso",
+    "youtube": {
+      "title": "How does a camera actually see? #shorts",
+      "description": "A dark box, a hole, and an upside-down world. Take a real camera apart in 3D and learn what aperture, shutter speed and ISO really do.\n\n▶ Play with it: https://glassbox.how/e/cameraclear/\n⌘ Source code (MIT): https://github.com/glassboxhow/cameraclear\n\nBox No. 001 of 365 from Glassbox: one open-source interactive explainer every day.\n\n#glassbox #howitworks #explained"
+    },
+    "youtubeLong": {
+      "title": "How does a camera actually see? (interactive explainer)",
+      "description": "A dark box, a hole, and an upside-down world. Take a real camera apart in 3D and learn what aperture, shutter speed and ISO really do.\n\n▶ Play with the interactive version: https://glassbox.how/e/cameraclear/\n⌘ Source code (MIT): https://github.com/glassboxhow/cameraclear\n\nIn this video:\n• Every camera is a dark box with a hole. Light travels in straight lines.\n• A lens fixes the pinhole's trade-off. A bigger hole gives a brighter picture but a blurrier one.\n• Aperture is how wide the door opens. Iris blades set the size of the opening.\n• Shutter speed is how long the door stays open. Two curtains slide across the sensor.\n• ISO turns up the volume, and the noise. The sensor counts photons in millions of tiny wells.\n• Exposure is the three working together. Aperture, shutter speed and ISO all trade against each other.\n\nGlassbox opens one box a day: an interactive model of how something works, plus the code behind it.\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+    },
+    "short": "How does a camera actually see?\n\nA dark box, a hole, and an upside-down world.\n\nPlay with it: https://glassbox.how/e/cameraclear/",
+    "linkedin": "How does a camera actually see?\n\nA dark box, a hole, and an upside-down world. Take a real camera apart in 3D and learn what aperture, shutter speed and ISO really do.\n\n1. Every camera is a dark box with a hole\n2. A lens fixes the pinhole's trade-off\n3. Aperture is how wide the door opens\n4. Shutter speed is how long the door stays open\n5. ISO turns up the volume, and the noise\n6. Exposure is the three working together\n\nI built an interactive, open-source explainer so you can pull the levers yourself. It's box No. 001 in my one-a-day project, Glassbox.\n\nTry it: https://glassbox.how/e/cameraclear/\nCode: https://github.com/glassboxhow/cameraclear\n\n#glassbox #howitworks #explained #learnoninstagram #stem"
+  },
+  "schedule": {
+    "at": "2026-09-27T13:00:00.000Z"
+  },
+  "targets": [
+    {
+      "service": "instagram",
+      "kind": "reel",
+      "enabled": true
+    },
+    {
+      "service": "instagram",
+      "kind": "carousel",
+      "offsetHours": 4,
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "short",
+      "enabled": true
+    },
+    {
+      "service": "youtube",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "linkedin",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "twitter",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "threads",
+      "kind": "video",
+      "enabled": true
+    },
+    {
+      "service": "tiktok",
+      "kind": "video",
+      "enabled": true
+    }
+  ],
+  "thumbnailOffsetMs": 1200,
+  "updatedAt": "2026-09-26T14:42:10.076Z"
+}
