@@ -1,6 +1,81 @@
-# CameraClear
+<!-- glassbox:start -->
+<!-- Generated from glassbox.json by the Glassbox hub (npm run readme -- cameraclear). Edit glassbox.json, not this block. -->
+<p align="center"><a href="https://glassbox.how/e/cameraclear/"><img src="glassbox/cover.jpg" alt="How does a camera actually see?" width="100%"></a></p>
 
-**Box No. 001 of [Glassbox](https://glassbox.how).** ▶ Play: https://glassbox.how/cameraclear/ · 📖 Explainer: https://glassbox.how/e/cameraclear/
+<h1 align="center">CameraClear</h1>
+
+<p align="center"><b>How does a camera actually see?</b><br>A dark box, a hole, and an upside-down world. Take a real camera apart in 3D and learn what aperture, shutter speed and ISO really do.</p>
+
+<p align="center"><a href="https://glassbox.how/cameraclear/"><b>▶ Play with it</b></a> &nbsp;·&nbsp; <a href="https://glassbox.how/e/cameraclear/">Read the 60-second explainer</a> &nbsp;·&nbsp; <a href="https://glassbox.how/cameraclear/glassbox/reel.mp4">Watch the 40-second video</a></p>
+
+<p align="center">
+  <a href="https://glassbox.how/e/cameraclear/"><img alt="Glassbox No. 001" src="https://img.shields.io/badge/Glassbox-No.%20001-8ef0ff"></a>
+  <a href="https://glassbox.how/e/cameraclear/"><img alt="Light & Optics" src="https://img.shields.io/badge/field-Light%20%26%20Optics-ffb547"></a>
+  <a href="LICENSE"><img alt="Code: MIT" src="https://img.shields.io/badge/code-MIT-3fb950"></a>
+  <a href="LICENSE-CONTENT.md"><img alt="Content: CC BY 4.0" src="https://img.shields.io/badge/content-CC%20BY%204.0-ef9421"></a>
+  <a href="#privacy"><img alt="No tracking" src="https://img.shields.io/badge/tracking-none-555"></a>
+</p>
+
+## In 60 seconds
+
+1. **Every camera is a dark box with a hole.** Light travels in straight lines. A small hole lets only a thin bundle of rays through from each point of a scene, so they paint a picture on the back wall. It lands upside-down because rays from the top cross over to the bottom.
+2. **A lens fixes the pinhole's trade-off.** A bigger hole gives a brighter picture but a blurrier one. A lens bends every ray from one point back to one point, so you get a wide opening that is still sharp. Focusing means moving the lens until those rays meet exactly on the sensor.
+3. **Aperture is how wide the door opens.** Iris blades set the size of the opening. A wide aperture (f/2) lets in lots of light and blurs the background. A narrow one (f/16) lets in little light and keeps near and far sharp. That in-focus zone is the depth of field.
+4. **Shutter speed is how long the door stays open.** Two curtains slide across the sensor. A fast shutter (1/1000 s) freezes motion. A slow one (1/15 s) collects more light but smears anything that moves, including your own shaking hands.
+5. **ISO turns up the volume, and the noise.** The sensor counts photons in millions of tiny wells. ISO amplifies that signal after the fact. It brightens a dark photo, but it amplifies the random grain too.
+6. **Exposure is the three working together.** Aperture, shutter speed and ISO all trade against each other. Close the aperture one stop and you need twice the shutter time, or twice the ISO, for the same brightness. Every photo is a choice about which side effect you'd rather have.
+
+## Words worth knowing
+
+| Term | Meaning |
+|---|---|
+| **Camera obscura** | Latin for 'dark room': a sealed space with a small hole that projects an upside-down image of the outside world. |
+| **f-number** | Focal length divided by aperture diameter. Smaller numbers mean bigger openings: f/2 lets in 4x the light of f/4. |
+| **Stop** | A doubling or halving of light. Photographers measure every exposure change in stops. |
+| **Depth of field** | The distance range that looks acceptably sharp. Wide apertures, long lenses and close subjects make it shallow. |
+| **Focal length** | How strongly a lens bends light, in millimetres. Short = wide view, long = narrow, magnified view. |
+| **Sensor noise** | Random speckle from the physics of counting light. ISO amplification makes it more visible. |
+
+## Video and slides
+
+Made with the Glassbox studio from this box's storyboard (`window.glassbox.director`). Free to reuse under CC BY 4.0.
+
+<a href="https://glassbox.how/cameraclear/glassbox/video.mp4"><img src="glassbox/thumb.jpg" alt="Video: How does a camera actually see?" width="100%"></a>
+
+<p><a href="glassbox/slide-1.jpg"><img src="glassbox/slide-1.jpg" alt="Carousel slide-1" width="24%"></a> <a href="glassbox/slide-2.jpg"><img src="glassbox/slide-2.jpg" alt="Carousel slide-2" width="24%"></a> <a href="glassbox/slide-3.jpg"><img src="glassbox/slide-3.jpg" alt="Carousel slide-3" width="24%"></a> <a href="glassbox/slide-4.jpg"><img src="glassbox/slide-4.jpg" alt="Carousel slide-4" width="24%"></a></p>
+
+| File | What | Size |
+|---|---|---|
+| [`glassbox/reel.mp4`](https://glassbox.how/cameraclear/glassbox/reel.mp4) | Reel / Short, with captions and soundtrack | 1080×1920 |
+| [`glassbox/video.mp4`](https://glassbox.how/cameraclear/glassbox/video.mp4) | YouTube video, with captions and soundtrack | 1920×1080 |
+| `glassbox/slide-1…10.jpg` | Instagram carousel | 1080×1350 |
+| `glassbox/thumb.jpg` | YouTube thumbnail | 1280×720 |
+| `glassbox/cover.jpg` | Share card and repo social preview | 1200×630 |
+| `glassbox/post.json` | Post copy and schedule used by the publish kit | |
+
+## Privacy
+
+This box collects **nothing**: no accounts, no cookies, no analytics, no tracking, and no requests to other websites. Every file, including fonts and libraries, is served from glassbox.how.
+
+It remembers a few things **in your own browser only**, and never sends them anywhere:
+
+| Browser storage key | What it holds |
+|---|---|
+| `cameraclear.v1` | Your XP, finished missions, best quiz scores, whether you have seen the welcome screen, and sound on or off. |
+
+The full policy is at [glassbox.how/privacy](https://glassbox.how/privacy/).
+
+## Licences
+
+- **Code:** [MIT](LICENSE). Use it, change it, ship it.
+- **Explanations, text, images and videos** (`glassbox.json`, `glassbox/`): [CC BY 4.0](LICENSE-CONTENT.md). Credit “Glassbox, glassbox.how/e/cameraclear”.
+- **Third-party parts** keep their own licences: [three.js](https://threejs.org) (MIT), [Inter, JetBrains Mono, Space Grotesk](https://openfontlicense.org) (SIL OFL 1.1).
+- The Glassbox name and logo aren't covered by either licence. See the [terms](https://glassbox.how/terms/).
+
+Found a mistake? [Open an issue](https://github.com/glassboxhow/cameraclear/issues). Corrections happen in public.
+<!-- glassbox:end -->
+
+## About the app
 
 An interactive 3D game that teaches how cameras work: light, lenses, focus, aperture,
 shutter speed, ISO, exposure, focal length and depth of field.
@@ -22,7 +97,7 @@ npm start
 Then open http://localhost:5173. (`npm start` runs `python3 serve.py`, a static server with caching turned off.
 Any static server works; ES modules just need to be served over http, not opened as `file://`.)
 
-Three.js loads from the jsDelivr CDN, so you need an internet connection the first time.
+Everything is self-contained: three.js (`vendor/three/`) and the fonts (`fonts/`) ship in the repo, so it works offline and never contacts another site.
 
 ## Chapters
 
@@ -51,13 +126,3 @@ Three.js loads from the jsDelivr CDN, so you need an internet connection the fir
 
 Progress is saved in `localStorage`. `window.cameraclear` exposes the stage and settings for debugging.
 
-## Glassbox
-
-- `glassbox.json`: the question, hook, explainer beats and key terms shown on glassbox.how
-- `js/reel.js`: the storyboard the Glassbox studio records into Reels, Shorts and a YouTube video
-- `window.glassbox.director` (end of `js/app.js`): lets the studio render the storyboard frame by frame
-- `glassbox/`: the published video, carousel slides, thumbnail and post copy
-
-## License
-
-MIT

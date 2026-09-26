@@ -2,8 +2,36 @@
   "name": "cameraclear",
   "version": "1.0.0",
   "private": true,
-  "description": "Interactive 3D game that teaches how cameras work",
+  "description": "How does a camera actually see? A dark box, a hole, and an upside-down world. Take a real camera apart in 3D and learn what aperture, shutter speed and ISO really do.",
   "scripts": {
     "start": "python3 serve.py 5173"
-  }
+  },
+  "homepage": "https://glassbox.how/cameraclear/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glassboxhow/cameraclear.git"
+  },
+  "bugs": {
+    "url": "https://github.com/glassboxhow/cameraclear/issues"
+  },
+  "license": "MIT",
+  "author": "Deepankar Biswas",
+  "keywords": [
+    "glassbox-box",
+    "glassbox",
+    "optics",
+    "interactive",
+    "explainer",
+    "education",
+    "html5",
+    "open-source",
+    "no-tracking",
+    "camera",
+    "photography",
+    "aperture",
+    "shutter-speed",
+    "iso",
+    "depth-of-field",
+    "three-js"
+  ]
 }

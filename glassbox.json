@@ -8,22 +8,85 @@
   "thumbText": "HOW A CAMERA SEES",
   "field": "optics",
   "minutes": 15,
-  "tags": ["camera", "photography", "optics", "aperture", "shutter speed", "iso", "depth of field", "three.js"],
+  "tags": [
+    "camera",
+    "photography",
+    "optics",
+    "aperture",
+    "shutter speed",
+    "iso",
+    "depth of field",
+    "three.js"
+  ],
   "explainer": [
-    { "title": "Every camera is a dark box with a hole", "text": "Light travels in straight lines. A small hole lets only a thin bundle of rays through from each point of a scene, so they paint a picture on the back wall. It lands upside-down because rays from the top cross over to the bottom." },
-    { "title": "A lens fixes the pinhole's trade-off", "text": "A bigger hole gives a brighter picture but a blurrier one. A lens bends every ray from one point back to one point, so you get a wide opening that is still sharp. Focusing means moving the lens until those rays meet exactly on the sensor." },
-    { "title": "Aperture is how wide the door opens", "text": "Iris blades set the size of the opening. A wide aperture (f/2) lets in lots of light and blurs the background. A narrow one (f/16) lets in little light and keeps near and far sharp. That in-focus zone is the depth of field." },
-    { "title": "Shutter speed is how long the door stays open", "text": "Two curtains slide across the sensor. A fast shutter (1/1000 s) freezes motion. A slow one (1/15 s) collects more light but smears anything that moves, including your own shaking hands." },
-    { "title": "ISO turns up the volume, and the noise", "text": "The sensor counts photons in millions of tiny wells. ISO amplifies that signal after the fact. It brightens a dark photo, but it amplifies the random grain too." },
-    { "title": "Exposure is the three working together", "text": "Aperture, shutter speed and ISO all trade against each other. Close the aperture one stop and you need twice the shutter time, or twice the ISO, for the same brightness. Every photo is a choice about which side effect you'd rather have." }
+    {
+      "title": "Every camera is a dark box with a hole",
+      "text": "Light travels in straight lines. A small hole lets only a thin bundle of rays through from each point of a scene, so they paint a picture on the back wall. It lands upside-down because rays from the top cross over to the bottom."
+    },
+    {
+      "title": "A lens fixes the pinhole's trade-off",
+      "text": "A bigger hole gives a brighter picture but a blurrier one. A lens bends every ray from one point back to one point, so you get a wide opening that is still sharp. Focusing means moving the lens until those rays meet exactly on the sensor."
+    },
+    {
+      "title": "Aperture is how wide the door opens",
+      "text": "Iris blades set the size of the opening. A wide aperture (f/2) lets in lots of light and blurs the background. A narrow one (f/16) lets in little light and keeps near and far sharp. That in-focus zone is the depth of field."
+    },
+    {
+      "title": "Shutter speed is how long the door stays open",
+      "text": "Two curtains slide across the sensor. A fast shutter (1/1000 s) freezes motion. A slow one (1/15 s) collects more light but smears anything that moves, including your own shaking hands."
+    },
+    {
+      "title": "ISO turns up the volume, and the noise",
+      "text": "The sensor counts photons in millions of tiny wells. ISO amplifies that signal after the fact. It brightens a dark photo, but it amplifies the random grain too."
+    },
+    {
+      "title": "Exposure is the three working together",
+      "text": "Aperture, shutter speed and ISO all trade against each other. Close the aperture one stop and you need twice the shutter time, or twice the ISO, for the same brightness. Every photo is a choice about which side effect you'd rather have."
+    }
   ],
   "concepts": [
-    { "term": "Camera obscura", "def": "Latin for 'dark room': a sealed space with a small hole that projects an upside-down image of the outside world." },
-    { "term": "f-number", "def": "Focal length divided by aperture diameter. Smaller numbers mean bigger openings: f/2 lets in 4x the light of f/4." },
-    { "term": "Stop", "def": "A doubling or halving of light. Photographers measure every exposure change in stops." },
-    { "term": "Depth of field", "def": "The distance range that looks acceptably sharp. Wide apertures, long lenses and close subjects make it shallow." },
-    { "term": "Focal length", "def": "How strongly a lens bends light, in millimetres. Short = wide view, long = narrow, magnified view." },
-    { "term": "Sensor noise", "def": "Random speckle from the physics of counting light. ISO amplification makes it more visible." }
+    {
+      "term": "Camera obscura",
+      "def": "Latin for 'dark room': a sealed space with a small hole that projects an upside-down image of the outside world."
+    },
+    {
+      "term": "f-number",
+      "def": "Focal length divided by aperture diameter. Smaller numbers mean bigger openings: f/2 lets in 4x the light of f/4."
+    },
+    {
+      "term": "Stop",
+      "def": "A doubling or halving of light. Photographers measure every exposure change in stops."
+    },
+    {
+      "term": "Depth of field",
+      "def": "The distance range that looks acceptably sharp. Wide apertures, long lenses and close subjects make it shallow."
+    },
+    {
+      "term": "Focal length",
+      "def": "How strongly a lens bends light, in millimetres. Short = wide view, long = narrow, magnified view."
+    },
+    {
+      "term": "Sensor noise",
+      "def": "Random speckle from the physics of counting light. ISO amplification makes it more visible."
+    }
   ],
-  "links": {}
+  "links": {},
+  "storage": [
+    {
+      "key": "cameraclear.v1",
+      "what": "Your XP, finished missions, best quiz scores, whether you have seen the welcome screen, and sound on or off."
+    }
+  ],
+  "credits": [
+    {
+      "name": "three.js",
+      "license": "MIT",
+      "url": "https://threejs.org"
+    },
+    {
+      "name": "Inter, JetBrains Mono, Space Grotesk",
+      "license": "SIL OFL 1.1",
+      "url": "https://openfontlicense.org"
+    }
+  ]
 }
