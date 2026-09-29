@@ -6,7 +6,7 @@
   "scripts": {
     "start": "python3 serve.py 5173"
   },
-  "homepage": "https://glassbox-production-fd52.up.railway.app/cameraclear/",
+  "homepage": "https://glassbox.how/cameraclear/",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bdeeps/cameraclear.git"
